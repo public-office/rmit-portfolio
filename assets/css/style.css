@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Webfont';
+  src: url('../fonts/Regular.woff');
+}
+@font-face {
+  font-family: 'Webfont';
+  src: url('../fonts/Italic.woff');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Webfont';
+  src: url('../fonts/Bold.woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Webfont';
+  src: url('../fonts/BoldItalic.woff');
+  font-style: italic;
+  font-weight: bold;
+}
+* {
+  font: inherit;
+  box-sizing: border-box;
+  color: inherit;
+}
+@media (max-width: 780px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+body {
+  font-family: 'Webfont', serif;
+  font-size: 250%;
+  line-height: 1.1;
+  color: black;
+  padding: 0.5em 2em;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 0;
+}
+
+small {
+  font-size: 50%;
+}
+
+.project-list {
+  min-height: 70vh;
+  vertical-align: bottom;
+}
+
+.project-list a {
+  display: inline-block;
+}
+
+.project-list a p {
+  display: none;
+  margin-bottom: 0;
+  margin-top: 0.25em;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.project-list--text-only a,
+.project-list--text-only a p {
+  display: block;
+}
+.project-list--text-only a img {
+  display: none;
+}
+
+footer {
+  margin-top: 8em;
+}

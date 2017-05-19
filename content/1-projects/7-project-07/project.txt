@@ -1,0 +1,19 @@
+title: Current
+
+----
+
+short_title: Current
+
+----
+
+category: Portrait
+
+----
+
+year: 2017
+
+----
+
+text:
+A selection of works that scratch the surface of Ben Clement’s style
+

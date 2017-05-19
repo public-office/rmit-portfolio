@@ -1,0 +1,37 @@
+Title: (My website)
+
+----
+
+Text: (A short description of this website)
+
+----
+
+Description: (A short description of this website, mainly for google)
+
+----
+
+Project-list: images
+
+----
+
+Styles: 
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  color:  blue ;
+  background: white ;
+  font-family: 'Oswald', sans-serif;
+  font-size: 280%;
+}
+a:hover {
+  color: red;
+}
+
+----
+
+Footer-text: ® All rights reserved, thanks.
+
+----
+
+Footer-home-link-text: · Back home

@@ -1,0 +1,25 @@
+title: Site
+fields:
+  title:
+    label: Title
+    type:  text
+  description:
+    label: Description
+    type: textarea
+  project_list:
+    label: Project list style
+    type: select
+    options:
+      images: Images
+      text: Text
+  footer_text:
+    label: Footer text
+    type: text
+    width: 1/2
+  footer_home_link_text:
+    label: Footer home link text
+    type: text
+    width: 1/2
+  styles:
+    label: Extra CSS
+    type: textarea
