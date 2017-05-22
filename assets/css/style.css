@@ -48,8 +48,12 @@ a {
   text-decoration: inherit;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 p {
-  max-width: 30em;
+  max-width: 24em;
   margin-bottom: 0;
 }
 
@@ -58,6 +62,7 @@ small {
 }
 
 .project-list {
+  margin-top: 1em;
   min-height: 70vh;
   vertical-align: bottom;
 }
@@ -69,7 +74,7 @@ small {
 .project-list a p {
   display: none;
   margin-bottom: 0;
-  margin-top: 0.25em;
+  margin-top: 0;
   text-indent: -1em;
   padding-left: 1em;
 }
@@ -84,4 +89,10 @@ small {
 
 footer {
   margin-top: 8em;
+}
+
+@media(max-width: 600px) {
+  [data-page="home"] {
+    padding: 0.5em 1em;
+  }
 }

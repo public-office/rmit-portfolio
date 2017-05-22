@@ -15,7 +15,7 @@ for more information: http://getkirby.com/license
 
 */
 
-c::set('license', 'put your license key here');
+c::set('license', 'K2-PRO-XXXXOOOOXXXXOOOOXXXXOOOOXXXXOOOO');
 
 /*
 
@@ -29,5 +29,6 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
-c::set('panel.install', true);
-c::set('debug', true);
+c::set('panel.stylesheet', '/assets/css/panel.css');
+c::set('markdown.extra', 'true');
+c::set('thumbs.driver', 'im-ext');

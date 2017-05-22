@@ -8,3 +8,5 @@ language: en
 role: admin
 history:
   - home
+  - about
+  - projects

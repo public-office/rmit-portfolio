@@ -1,5 +1,5 @@
 title: Page
-pages: true
+pages: false
 files: true
 fields:
   title:
@@ -8,4 +8,3 @@ fields:
   text:
     label: Text
     type: textarea
-    width: 1/2
