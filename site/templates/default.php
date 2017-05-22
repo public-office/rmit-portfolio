@@ -1,10 +1,9 @@
 <?php snippet('header') ?>
 
-
-<p>
+<header>
   <?php if($pages->find('about')->isVisible()): ?><?php echo $site->title() ?><?php endif ?>
   <?php if(!$pages->find('about')->isVisible()): ?><?= $pages->find('home')->text()->kirbytext() ?><?php endif ?>
-</p>
+</header>
 
 <p>Projects <?php if($pages->find('about')->isVisible()): ?>/ <a href="<?php echo $site->url() ?>/about">About</a><?php endif ?> </p>
 

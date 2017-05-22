@@ -1,5 +1,6 @@
-title: Page
-pages: true
+title: Projects
+pages:
+  template: project
 files: false
 fields:
   title:
