@@ -18,5 +18,6 @@
   <style type="text/css">
     <?= $site->styles() ?>
   </style>
+  <?= $site->header_text() ?>
 </head>
 <body data-page="<?php echo $page->slug(); ?>">
