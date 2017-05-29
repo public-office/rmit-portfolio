@@ -10,7 +10,9 @@
 <main class="project-list <?= $site->project_list() == 'text' ? 'project-list--text-only' : '' ?>">
   <?php foreach($pages->find('projects')->children()->visible() as $project): ?>
     <a href="<?= $project->url() ?>">
-      <img src="<?= $project->images()->first()->url() ?>" />
+      <?php if($project->images()->count()): ?>
+        <img src="<?= $project->images()->first()->url() ?>" />
+      <?php endif ?>
       <p><?= $project->year() ?>, <?= $project->title() ?>, <?= $project->category() ?></p>
     </a>
   <?php endforeach; ?>
