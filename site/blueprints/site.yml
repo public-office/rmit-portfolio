@@ -22,7 +22,7 @@ fields:
     width: 1/2
   styles:
     label: Extra CSS
-    type: textarea
+    type: codemirror
   header_text:
     label: Extra HTML (ie Google Analytics)
-    type: textarea
+    type: codemirror
