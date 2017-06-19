@@ -7,7 +7,7 @@
 </p>
 <?php if(!$page->year()->isEmpty() || !$page->category()->isEmpty()): ?>
 <p>
-   <?php if(!$page->category()->isEmpty() && !$page->year()->isEmpty()): ?><?php $page->year() ?>, <?php endif ?><?= $page->category() ?>
+   <?php if(!$page->category()->isEmpty() && !$page->year()->isEmpty()): ?><?php echo $page->year() ?>, <?php endif ?><?= $page->category() ?>
 </p>
 <?php endif ?>
 <p>
