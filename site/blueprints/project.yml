@@ -5,6 +5,14 @@ fields:
   title:
     label: Title
     type:  text
+  year:
+    label: Year
+    type: text
+    width: 1/2
+  category:
+    label: Category
+    type: text
+    width: 1/2
   text:
     label: Text
     type:  textarea
