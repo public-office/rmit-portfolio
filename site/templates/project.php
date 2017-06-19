@@ -5,7 +5,11 @@
     <?= $page->title()->kirbytext() ?>
   </a>
 </p>
-<p><?= $page->year() ?>, <?= $page->category() ?></p>
+<?php if(!$page->year()->isEmpty() || !$page->category()->isEmpty()): ?>
+<p>
+   <?php if(!$page->category()->isEmpty() && !$page->year()->isEmpty()): ?><?php $page->year() ?>, <?php endif ?><?= $page->category() ?>
+</p>
+<?php endif ?>
 <p>
   <?= $page->text()->kirbytext() ?>
 </p>
