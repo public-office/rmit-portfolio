@@ -10,7 +10,7 @@ Description: (A short description of this website, mainly for google)
 
 ----
 
-Project-list: images
+Project-list: text
 
 ----
 
@@ -35,3 +35,7 @@ Footer-text: ® All rights reserved, thanks.
 ----
 
 Footer-home-link-text: · Back home
+
+----
+
+Header-text: 

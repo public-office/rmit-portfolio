@@ -16,12 +16,12 @@ RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]
 RewriteRule ^site/(.*) index.php [L]
 
 # block direct access to kirby and the panel sources
-RewriteRule ^(kirby|admin\/app|admin\/tests)/(.*) index.php [L]
+RewriteRule ^(kirby|admin\/app|panel\/tests)/(.*) index.php [L]
 
 # make panel links work
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^admin/(.*) admin/index.php [L]
+RewriteRule ^panel/(.*) panel/index.php [L]
 
 # make site links work
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -35,4 +35,4 @@ RewriteRule ^(.*) index.php [L]
 #
 AddDefaultCharset UTF-8
 #
-# php_flag short_open_tag on
+php_flag short_open_tag on
