@@ -31,4 +31,4 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 c::set('panel.stylesheet', '/assets/css/panel.css');
 c::set('markdown.extra', 'true');
-c::set('thumbs.driver', 'im-ext');
+// c::set('thumbs.driver', 'im-ext');
